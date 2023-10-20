@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\166329\\c#\\06-10\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\166329\\AISD-Poprawkowa\\13-10\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "D:\\166329\\c#\\06-10\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "D:\\166329\\AISD-Poprawkowa\\13-10\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\local\\.nuget\\packages\\",
-      "outputPath": "D:\\166329\\c#\\06-10\\WinFormsApp1\\obj\\",
+      "outputPath": "D:\\166329\\AISD-Poprawkowa\\13-10\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\local\\AppData\\Roaming\\NuGet\\NuGet.Config",
