@@ -1,0 +1,15 @@
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\bin\Debug\net6.0\Select_sort.exe
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\bin\Debug\net6.0\Select_sort.deps.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\bin\Debug\net6.0\Select_sort.runtimeconfig.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\bin\Debug\net6.0\Select_sort.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\bin\Debug\net6.0\Select_sort.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.csproj.AssemblyReference.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.AssemblyInfoInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.AssemblyInfo.cs
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\refint\Select_sort.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\Select_sort.genruntimeconfig.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_sort\Select_sort\obj\Debug\net6.0\ref\Select_sort.dll
