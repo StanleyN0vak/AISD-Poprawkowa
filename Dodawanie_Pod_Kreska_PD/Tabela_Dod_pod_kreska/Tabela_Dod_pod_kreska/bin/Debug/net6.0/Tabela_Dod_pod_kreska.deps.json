@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Tabela_Dod_pod_kreska/1.0.0": {
+        "runtime": {
+          "Tabela_Dod_pod_kreska.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tabela_Dod_pod_kreska/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

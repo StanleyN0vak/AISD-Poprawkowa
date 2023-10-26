@@ -1,0 +1,15 @@
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\bin\Debug\net6.0\Tabela_Dod_pod_kreska.exe
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\bin\Debug\net6.0\Tabela_Dod_pod_kreska.deps.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\bin\Debug\net6.0\Tabela_Dod_pod_kreska.runtimeconfig.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\bin\Debug\net6.0\Tabela_Dod_pod_kreska.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\bin\Debug\net6.0\Tabela_Dod_pod_kreska.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.csproj.AssemblyReference.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.AssemblyInfoInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.AssemblyInfo.cs
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\refint\Tabela_Dod_pod_kreska.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\Tabela_Dod_pod_kreska.genruntimeconfig.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Dodawanie_Pod_Kreska_PD\Tabela_Dod_pod_kreska\Tabela_Dod_pod_kreska\obj\Debug\net6.0\ref\Tabela_Dod_pod_kreska.dll
