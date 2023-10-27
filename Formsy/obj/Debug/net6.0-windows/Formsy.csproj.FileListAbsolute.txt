@@ -1,0 +1,17 @@
+D:\MW\Formsy\bin\Debug\net6.0-windows\Formsy.exe
+D:\MW\Formsy\bin\Debug\net6.0-windows\Formsy.deps.json
+D:\MW\Formsy\bin\Debug\net6.0-windows\Formsy.runtimeconfig.json
+D:\MW\Formsy\bin\Debug\net6.0-windows\Formsy.dll
+D:\MW\Formsy\bin\Debug\net6.0-windows\Formsy.pdb
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.csproj.AssemblyReference.cache
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.Form1.resources
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.csproj.GenerateResource.cache
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.GeneratedMSBuildEditorConfig.editorconfig
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.AssemblyInfoInputs.cache
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.AssemblyInfo.cs
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.csproj.CoreCompileInputs.cache
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.dll
+D:\MW\Formsy\obj\Debug\net6.0-windows\refint\Formsy.dll
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.pdb
+D:\MW\Formsy\obj\Debug\net6.0-windows\Formsy.genruntimeconfig.cache
+D:\MW\Formsy\obj\Debug\net6.0-windows\ref\Formsy.dll
