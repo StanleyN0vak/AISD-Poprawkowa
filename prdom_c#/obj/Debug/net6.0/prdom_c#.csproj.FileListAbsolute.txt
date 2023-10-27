@@ -1,0 +1,14 @@
+D:\Programs\Visual Studio\pliki\prdom_c#\bin\Debug\net6.0\prdom_c#.exe
+D:\Programs\Visual Studio\pliki\prdom_c#\bin\Debug\net6.0\prdom_c#.deps.json
+D:\Programs\Visual Studio\pliki\prdom_c#\bin\Debug\net6.0\prdom_c#.runtimeconfig.json
+D:\Programs\Visual Studio\pliki\prdom_c#\bin\Debug\net6.0\prdom_c#.dll
+D:\Programs\Visual Studio\pliki\prdom_c#\bin\Debug\net6.0\prdom_c#.pdb
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\prdom_c#.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\prdom_c#.AssemblyInfoInputs.cache
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\prdom_c#.AssemblyInfo.cs
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\prdom_c#.csproj.CoreCompileInputs.cache
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\prdom_c#.dll
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\refint\prdom_c#.dll
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\prdom_c#.pdb
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\prdom_c#.genruntimeconfig.cache
+D:\Programs\Visual Studio\pliki\prdom_c#\obj\Debug\net6.0\ref\prdom_c#.dll

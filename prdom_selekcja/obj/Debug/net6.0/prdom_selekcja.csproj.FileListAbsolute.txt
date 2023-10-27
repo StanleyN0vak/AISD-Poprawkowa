@@ -1,0 +1,14 @@
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\prdom_selekcja.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\prdom_selekcja.AssemblyInfoInputs.cache
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\prdom_selekcja.AssemblyInfo.cs
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\prdom_selekcja.csproj.CoreCompileInputs.cache
+D:\Programs\Visual Studio\pliki\prdom_selekcja\bin\Debug\net6.0\prdom_selekcja.exe
+D:\Programs\Visual Studio\pliki\prdom_selekcja\bin\Debug\net6.0\prdom_selekcja.deps.json
+D:\Programs\Visual Studio\pliki\prdom_selekcja\bin\Debug\net6.0\prdom_selekcja.runtimeconfig.json
+D:\Programs\Visual Studio\pliki\prdom_selekcja\bin\Debug\net6.0\prdom_selekcja.dll
+D:\Programs\Visual Studio\pliki\prdom_selekcja\bin\Debug\net6.0\prdom_selekcja.pdb
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\prdom_selekcja.dll
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\refint\prdom_selekcja.dll
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\prdom_selekcja.pdb
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\prdom_selekcja.genruntimeconfig.cache
+D:\Programs\Visual Studio\pliki\prdom_selekcja\obj\Debug\net6.0\ref\prdom_selekcja.dll
