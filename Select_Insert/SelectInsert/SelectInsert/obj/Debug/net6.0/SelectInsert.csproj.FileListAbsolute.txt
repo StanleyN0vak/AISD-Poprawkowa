@@ -1,0 +1,15 @@
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\bin\Debug\net6.0\SelectInsert.exe
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\bin\Debug\net6.0\SelectInsert.deps.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\bin\Debug\net6.0\SelectInsert.runtimeconfig.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\bin\Debug\net6.0\SelectInsert.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\bin\Debug\net6.0\SelectInsert.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.csproj.AssemblyReference.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.AssemblyInfoInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.AssemblyInfo.cs
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\refint\SelectInsert.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\SelectInsert.genruntimeconfig.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Insert\SelectInsert\SelectInsert\obj\Debug\net6.0\ref\SelectInsert.dll
