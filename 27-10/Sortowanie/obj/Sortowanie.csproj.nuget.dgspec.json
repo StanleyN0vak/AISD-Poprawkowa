@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\166329\\c#\\27-10\\Sortowanie\\Sortowanie.csproj": {}
+    "C:\\Users\\Mateusz\\WebstormProjects\\ts\\AISD-Poprawkowa\\27-10\\Sortowanie\\Sortowanie.csproj": {}
   },
   "projects": {
-    "D:\\166329\\c#\\27-10\\Sortowanie\\Sortowanie.csproj": {
+    "C:\\Users\\Mateusz\\WebstormProjects\\ts\\AISD-Poprawkowa\\27-10\\Sortowanie\\Sortowanie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\166329\\c#\\27-10\\Sortowanie\\Sortowanie.csproj",
+        "projectUniqueName": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\AISD-Poprawkowa\\27-10\\Sortowanie\\Sortowanie.csproj",
         "projectName": "Sortowanie",
-        "projectPath": "D:\\166329\\c#\\27-10\\Sortowanie\\Sortowanie.csproj",
-        "packagesPath": "C:\\Users\\local\\.nuget\\packages\\",
-        "outputPath": "D:\\166329\\c#\\27-10\\Sortowanie\\obj\\",
+        "projectPath": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\AISD-Poprawkowa\\27-10\\Sortowanie\\Sortowanie.csproj",
+        "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\AISD-Poprawkowa\\27-10\\Sortowanie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\local\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

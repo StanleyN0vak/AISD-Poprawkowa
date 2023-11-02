@@ -1,0 +1,17 @@
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\bin\Debug\net6.0-windows\Sortowanie.exe
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\bin\Debug\net6.0-windows\Sortowanie.deps.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\bin\Debug\net6.0-windows\Sortowanie.runtimeconfig.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\bin\Debug\net6.0-windows\Sortowanie.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\bin\Debug\net6.0-windows\Sortowanie.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.csproj.AssemblyReference.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.Form1.resources
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.csproj.GenerateResource.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.AssemblyInfoInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.AssemblyInfo.cs
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\refint\Sortowanie.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\Sortowanie.genruntimeconfig.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\27-10\Sortowanie\obj\Debug\net6.0-windows\ref\Sortowanie.dll
