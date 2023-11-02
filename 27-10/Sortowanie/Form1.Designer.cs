@@ -74,6 +74,7 @@
             this.SelectInsert.TabIndex = 2;
             this.SelectInsert.Text = "SI";
             this.SelectInsert.UseVisualStyleBackColor = true;
+            this.SelectInsert.Click += new System.EventHandler(this.SelectInsert_Click);
             // 
             // SelectMerch
             // 

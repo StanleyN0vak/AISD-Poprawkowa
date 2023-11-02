@@ -77,6 +77,34 @@ namespace Sortowanie
             return tablica;
         }
 
+        private void SelectInsert_Click(object sender, EventArgs e)
+        {
+            string tekst = Dane.Text;
+            int[] tab = new int[tekst.Length];
+            tab = Convert(tekst);
+            tab = SortI(tab);
+            string score = string.Join(" ", tab);
+            Wynik.Text = score;
+        }
+
+        int[] SortI(int[] tablica)
+        {
+            int temp = 0, j = 0, x = 0;
+            for (int i = 1; i < tablica.Length; i++)
+            {
+                j = i - 1;
+                x = i;
+                while (j >=0 && tablica[x] < tablica[j])
+                {
+                    temp = tablica[x];
+                    tablica[x] = tablica[j];
+                    tablica[j] = temp;
+                    j--; x--;
+                }
+            }
+            return tablica;
+        }
+
         int[] Convert(string napis)
         {
             var liczbyS = napis.Trim().Split(' ');
