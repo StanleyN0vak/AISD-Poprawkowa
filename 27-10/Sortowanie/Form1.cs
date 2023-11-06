@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace Sortowanie
 {
     public partial class Form1 : Form
@@ -9,12 +11,26 @@ namespace Sortowanie
 
         private void SelectBubble_Click(object sender, EventArgs e)
         {
-            string tekst = Dane.Text;
-            int[] tab = new int[tekst.Length];
-            tab = Convert(tekst);
-            tab = SortB(tab);
-            string score = string.Join(" ", tab);
-            Wynik.Text = score;
+            if (!checkBox1.Checked)
+            {
+                string tekst = Dane.Text;
+                int[] tab = new int[tekst.Length];
+                tab = Convert(tekst);
+                tab = SortB(tab);
+                string score = string.Join(" ", tab);
+                Wynik.Text = score;
+            }
+            else
+            {
+                int ile = (int)nud.Value;
+                int[] tab = create(ile);
+                Stopwatch watch = new Stopwatch();
+                watch.Start();
+                SortB(tab);
+                watch.Stop();
+                time.Text = watch.ElapsedMilliseconds.ToString();
+            }
+            
         }
 
         int[] SortB(int[] tablica)
@@ -40,12 +56,26 @@ namespace Sortowanie
 
         private void SelectSort_Click(object sender, EventArgs e)
         {
-            string tekst = Dane.Text;
-            int[] tab = new int[tekst.Length];
-            tab = Convert(tekst);
-            tab = SortS(tab);
-            string score = string.Join(" ", tab);
-            Wynik.Text = score;
+            if (!checkBox1.Checked)
+            {
+                string tekst = Dane.Text;
+                int[] tab = new int[tekst.Length];
+                tab = Convert(tekst);
+                tab = SortS(tab);
+                string score = string.Join(" ", tab);
+                Wynik.Text = score;
+            }
+            else
+            {
+                int ile = (int)nud.Value;
+                int[] tab = create(ile);
+                Stopwatch watch = new Stopwatch();
+                watch.Start();
+                SortS(tab);
+                watch.Stop();
+                time.Text = watch.ElapsedMilliseconds.ToString();
+            }
+
         }
 
         int[] SortS(int[] tablica)
@@ -79,12 +109,26 @@ namespace Sortowanie
 
         private void SelectInsert_Click(object sender, EventArgs e)
         {
-            string tekst = Dane.Text;
-            int[] tab = new int[tekst.Length];
-            tab = Convert(tekst);
-            tab = SortI(tab);
-            string score = string.Join(" ", tab);
-            Wynik.Text = score;
+            if (!checkBox1.Checked)
+            {
+                string tekst = Dane.Text;
+                int[] tab = new int[tekst.Length];
+                tab = Convert(tekst);
+                tab = SortI(tab);
+                string score = string.Join(" ", tab);
+                Wynik.Text = score;
+            }
+            else
+            {
+                int ile = (int)nud.Value;
+                int[] tab = create(ile);
+                Stopwatch watch = new Stopwatch();
+                watch.Start();
+                SortI(tab);
+                watch.Stop();
+                time.Text = watch.ElapsedMilliseconds.ToString();
+            }
+
         }
 
         int[] SortI(int[] tablica)
@@ -107,12 +151,26 @@ namespace Sortowanie
 
         private void SelectMerch_Click(object sender, EventArgs e)
         {
-            string tekst = Dane.Text;
-            int[] tab = new int[tekst.Length];
-            tab = Convert(tekst);
-            SortM(tab);
-            string score = string.Join(" ", tab);
-            Wynik.Text = score;
+            if (!checkBox1.Checked)
+            {
+                string tekst = Dane.Text;
+                int[] tab = new int[tekst.Length];
+                tab = Convert(tekst);
+                SortM(tab);
+                string score = string.Join(" ", tab);
+                Wynik.Text = score;
+            }
+            else
+            {
+                int ile = (int)nud.Value;
+                int[] tab = create(ile);
+                Stopwatch watch = new Stopwatch();
+                watch.Start();
+                SortM(tab);
+                watch.Stop();
+                time.Text = watch.ElapsedMilliseconds.ToString();
+            }
+
         }
 
         public static void SortM(int[] tablica)
@@ -167,13 +225,73 @@ namespace Sortowanie
 
         private void SelectQuick_Click(object sender, EventArgs e)
         {
+            if (!checkBox1.Checked)
+            {
+                string tekst = Dane.Text;
+                int[] tab = new int[tekst.Length];
+                tab = Convert(tekst);
+                SortQ(tab, 0, tab.Length);
+                string score = string.Join(" ", tab);
+                Wynik.Text = score;
+            }
+            else
+            {
+                int ile = (int)nud.Value;
+                int[] tab = create(ile);
+                Stopwatch watch = new Stopwatch();
+                watch.Start();
+                SortQ(tab, 0, tab.Length);
+                watch.Stop();
+                time.Text = watch.ElapsedMilliseconds.ToString();
+            }
+        }
 
+        public static void SortQ(int[] table, int low, int high)
+        {
+            if (low < high)
+            {
+                int pi = partition(table, low, high - 1);
+                SortQ(table, low, pi);
+                SortQ(table, pi + 1, high);
+            }
+        }
+
+        private static int partition(int[] table, int low, int high)
+        {
+            int pivot = table[low];
+            int i = low, j = high, temp = 0;
+
+            while (true)
+            {
+                while (table[i] < pivot)
+                {
+                    i++;
+                }
+                while (table[j] > pivot)
+                {
+                    j--;
+                }
+                if (i < j)
+                {
+                    temp = table[i];
+                    table[i] = table[j];
+                    table[j] = temp;
+                    i++;
+                    j--;
+                }
+                else
+                {
+                    return j;
+                }
+            }
         }
 
         int[] Convert(string napis)
         {
-            var liczbyS = napis.Trim().Split(' ');
+            var liczbyS = napis.Trim().Split(' ');                
             var wynik = new int[liczbyS.Length];
+            if (string.IsNullOrEmpty(napis))
+                return wynik;
 
             for (int i = 0; i < liczbyS.Length; i++)
             {
@@ -208,6 +326,24 @@ namespace Sortowanie
         }
 
         private void generuj_Click(object sender, EventArgs e)
+        {
+            int ile = (int)nud.Value;
+            int[] tab = new int[ile];
+            
+        }
+
+        int[] create(int ile)
+        {
+            int[] wynik = new int[ile];
+            Random random = new Random();
+            for (int i = 0; i < ile; i++)
+            {
+                wynik[i] = random.Next();
+            }
+            return wynik;
+        }
+
+        private void time_Click(object sender, EventArgs e)
         {
 
         }

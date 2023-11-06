@@ -136,6 +136,11 @@
             this.nud.Enabled = false;
             this.nud.Location = new System.Drawing.Point(496, 46);
             this.nud.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.nud.Maximum = new decimal(new int[] {
+            1215752192,
+            23,
+            0,
+            0});
             this.nud.Name = "nud";
             this.nud.Size = new System.Drawing.Size(137, 27);
             this.nud.TabIndex = 8;
@@ -170,6 +175,7 @@
             this.time.Size = new System.Drawing.Size(18, 20);
             this.time.TabIndex = 11;
             this.time.Text = "...";
+            this.time.Click += new System.EventHandler(this.time_Click);
             // 
             // Form1
             // 
