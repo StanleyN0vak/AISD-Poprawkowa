@@ -85,6 +85,7 @@
             this.SelectMerch.TabIndex = 3;
             this.SelectMerch.Text = "SM";
             this.SelectMerch.UseVisualStyleBackColor = true;
+            this.SelectMerch.Click += new System.EventHandler(this.SelectMerch_Click);
             // 
             // SelectQuick
             // 
@@ -95,9 +96,11 @@
             this.SelectQuick.TabIndex = 4;
             this.SelectQuick.Text = "SQ";
             this.SelectQuick.UseVisualStyleBackColor = true;
+            this.SelectQuick.Click += new System.EventHandler(this.SelectQuick_Click);
             // 
             // Dane
             // 
+            this.Dane.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Dane.Location = new System.Drawing.Point(58, 46);
             this.Dane.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Dane.Name = "Dane";
@@ -123,17 +126,24 @@
             this.checkBox1.Size = new System.Drawing.Size(18, 17);
             this.checkBox1.TabIndex = 7;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // nud
             // 
+            this.nud.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.nud.Enabled = false;
             this.nud.Location = new System.Drawing.Point(496, 46);
             this.nud.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nud.Name = "nud";
             this.nud.Size = new System.Drawing.Size(137, 27);
             this.nud.TabIndex = 8;
+            this.nud.ValueChanged += new System.EventHandler(this.nud_ValueChanged);
             // 
             // generuj
             // 
+            this.generuj.Enabled = false;
             this.generuj.Location = new System.Drawing.Point(517, 85);
             this.generuj.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.generuj.Name = "generuj";
@@ -141,6 +151,7 @@
             this.generuj.TabIndex = 9;
             this.generuj.Text = "Generuj";
             this.generuj.UseVisualStyleBackColor = true;
+            this.generuj.Click += new System.EventHandler(this.generuj_Click);
             // 
             // czas
             // 

@@ -1,0 +1,15 @@
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\bin\Debug\net6.0\Select_Merch.exe
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\bin\Debug\net6.0\Select_Merch.deps.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\bin\Debug\net6.0\Select_Merch.runtimeconfig.json
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\bin\Debug\net6.0\Select_Merch.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\bin\Debug\net6.0\Select_Merch.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.csproj.AssemblyReference.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.AssemblyInfoInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.AssemblyInfo.cs
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\refint\Select_Merch.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.pdb
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\Select_Merch.genruntimeconfig.cache
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\Select_Merch\Select_Merch\Select_Merch\obj\Debug\net6.0\ref\Select_Merch.dll
