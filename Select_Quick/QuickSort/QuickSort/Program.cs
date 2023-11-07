@@ -42,6 +42,17 @@ int partition(int[] tabela, int lewy, int prawy)
     }
 }
 
+void copy(int[] oryg, int[] nowy)
+{
+    for (int i = 0; i < oryg.Length; i++)
+    {
+        nowy[i] = oryg[i];
+    }
+}
+
+int[] test = new int[tab.Length];
+copy(tab, test);
+
 SelectQ(tab, 0, p);
 
 foreach (int i in tab)
@@ -53,3 +64,9 @@ Console.WriteLine(" ");
 Random random = new Random();
 int los = random.Next();
 Console.WriteLine(los);
+
+Console.WriteLine(" ");
+foreach(int i in test)
+{
+    Console.WriteLine(i);
+}

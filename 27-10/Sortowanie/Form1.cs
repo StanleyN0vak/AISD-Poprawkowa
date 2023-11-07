@@ -4,6 +4,7 @@ namespace Sortowanie
 {
     public partial class Form1 : Form
     {
+        private int[] ints;
         public Form1()
         {
             InitializeComponent();
@@ -22,8 +23,8 @@ namespace Sortowanie
             }
             else
             {
-                int ile = (int)nud.Value;
-                int[] tab = create(ile);
+                int[] tab = new int[ints.Length];
+                Array.Copy(ints, tab, ints.Length);
                 Stopwatch watch = new Stopwatch();
                 watch.Start();
                 SortB(tab);
@@ -67,8 +68,8 @@ namespace Sortowanie
             }
             else
             {
-                int ile = (int)nud.Value;
-                int[] tab = create(ile);
+                int[] tab = new int[ints.Length];
+                Array.Copy(ints, tab, ints.Length);
                 Stopwatch watch = new Stopwatch();
                 watch.Start();
                 SortS(tab);
@@ -120,8 +121,8 @@ namespace Sortowanie
             }
             else
             {
-                int ile = (int)nud.Value;
-                int[] tab = create(ile);
+                int[] tab = new int[ints.Length];
+                Array.Copy(ints, tab, ints.Length);
                 Stopwatch watch = new Stopwatch();
                 watch.Start();
                 SortI(tab);
@@ -162,8 +163,8 @@ namespace Sortowanie
             }
             else
             {
-                int ile = (int)nud.Value;
-                int[] tab = create(ile);
+                int[] tab = new int[ints.Length];
+                Array.Copy(ints, tab, ints.Length);
                 Stopwatch watch = new Stopwatch();
                 watch.Start();
                 SortM(tab);
@@ -236,8 +237,8 @@ namespace Sortowanie
             }
             else
             {
-                int ile = (int)nud.Value;
-                int[] tab = create(ile);
+                int[] tab = new int[ints.Length];
+                Array.Copy(ints, tab, ints.Length);
                 Stopwatch watch = new Stopwatch();
                 watch.Start();
                 SortQ(tab, 0, tab.Length);
@@ -328,8 +329,7 @@ namespace Sortowanie
         private void generuj_Click(object sender, EventArgs e)
         {
             int ile = (int)nud.Value;
-            int[] tab = new int[ile];
-            
+            ints = create(ile);
         }
 
         int[] create(int ile)
