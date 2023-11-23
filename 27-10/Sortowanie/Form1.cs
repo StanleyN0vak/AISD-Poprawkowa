@@ -29,7 +29,7 @@ namespace Sortowanie
                 watch.Start();
                 SortB(tab);
                 watch.Stop();
-                time.Text = watch.ElapsedMilliseconds.ToString();
+                time.Text = watch.ElapsedMilliseconds.ToString() + " ms";
             }
             
         }
@@ -74,37 +74,31 @@ namespace Sortowanie
                 watch.Start();
                 SortS(tab);
                 watch.Stop();
-                time.Text = watch.ElapsedMilliseconds.ToString();
+                time.Text = watch.ElapsedMilliseconds.ToString() + " ms";
             }
 
         }
 
         int[] SortS(int[] tablica)
         {
-            bool cbz = false;
-            int temp1 = 0, temp2 = 0;
-            do
+            for (int i = 0; i < tablica.Length - 1; i++)
             {
-                cbz = false;
-                for (int i = 0; i < tablica.Length; i++)
+                int minIndex = i;
+                
+                for (int j = i + 1; j < tablica.Length; j++)
                 {
-                    temp1 = tablica[i];
-                    for (int j = i; j < tablica.Length; j++)
+                    if (tablica[j] < tablica[minIndex])
                     {
-                        if (temp1 > tablica[j])
-                        {
-                            temp2 = j;
-                            cbz = true;
-                            break;
-                        }
-                    }
-                    if (cbz)
-                    {
-                        tablica[i] = tablica[temp2];
-                        tablica[temp2] = temp1;
+                        minIndex = j;
                     }
                 }
-            } while (cbz);
+                if (minIndex != i)
+                {
+                    int temp = tablica[i];
+                    tablica[i] = tablica[minIndex];
+                    tablica[minIndex] = temp;
+                }
+            }
             return tablica;
         }
 
@@ -127,7 +121,7 @@ namespace Sortowanie
                 watch.Start();
                 SortI(tab);
                 watch.Stop();
-                time.Text = watch.ElapsedMilliseconds.ToString();
+                time.Text = watch.ElapsedMilliseconds.ToString() + " ms";
             }
 
         }
@@ -169,7 +163,7 @@ namespace Sortowanie
                 watch.Start();
                 SortM(tab);
                 watch.Stop();
-                time.Text = watch.ElapsedMilliseconds.ToString();
+                time.Text = watch.ElapsedMilliseconds.ToString() + " ms";
             }
 
         }
@@ -243,7 +237,7 @@ namespace Sortowanie
                 watch.Start();
                 SortQ(tab, 0, tab.Length);
                 watch.Stop();
-                time.Text = watch.ElapsedMilliseconds.ToString();
+                time.Text = watch.ElapsedMilliseconds.ToString() + " ms";
             }
         }
 
@@ -346,6 +340,45 @@ namespace Sortowanie
         private void time_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Test_Click(object sender, EventArgs e)
+        {
+            wartosc = 0;
+            labelTest.Text = "Start";
+            labelTest.ForeColor = Color.Red;
+            bgw1.RunWorkerAsync(15);
+            timer1.Start();
+        }
+        int wartosc = 0;
+        private void labelTest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bgw1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+            int czas = int.Parse(e.Argument.ToString());
+            System.Threading.Thread.Sleep(czas * 1000);
+        }
+
+        private void bgw1_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
+        {
+            labelTest.Text = "Koniec";
+            labelTest.ForeColor = Color.Black;
+        }
+
+        private void Test2Syn_Click(object sender, EventArgs e)
+        {
+            labelTest.Text = "Start";
+            System.Threading.Thread.Sleep(15 * 1000);
+            labelTest.Text = "Koniec";
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            wartosc++;
+            label1.Text = wartosc.ToString();
         }
     }
 }

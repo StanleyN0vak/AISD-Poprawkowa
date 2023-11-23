@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.SelectBubble = new System.Windows.Forms.Button();
             this.SelectSort = new System.Windows.Forms.Button();
             this.SelectInsert = new System.Windows.Forms.Button();
@@ -40,6 +41,12 @@
             this.generuj = new System.Windows.Forms.Button();
             this.czas = new System.Windows.Forms.Label();
             this.time = new System.Windows.Forms.Label();
+            this.Test = new System.Windows.Forms.Button();
+            this.labelTest = new System.Windows.Forms.Label();
+            this.bgw1 = new System.ComponentModel.BackgroundWorker();
+            this.Test2Syn = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nud)).BeginInit();
             this.SuspendLayout();
             // 
@@ -177,11 +184,64 @@
             this.time.Text = "...";
             this.time.Click += new System.EventHandler(this.time_Click);
             // 
+            // Test
+            // 
+            this.Test.Location = new System.Drawing.Point(277, 82);
+            this.Test.Name = "Test";
+            this.Test.Size = new System.Drawing.Size(94, 29);
+            this.Test.TabIndex = 12;
+            this.Test.Text = "Test";
+            this.Test.UseVisualStyleBackColor = true;
+            this.Test.Click += new System.EventHandler(this.Test_Click);
+            // 
+            // labelTest
+            // 
+            this.labelTest.AutoSize = true;
+            this.labelTest.Location = new System.Drawing.Point(304, 114);
+            this.labelTest.Name = "labelTest";
+            this.labelTest.Size = new System.Drawing.Size(35, 20);
+            this.labelTest.TabIndex = 13;
+            this.labelTest.Text = "Test";
+            this.labelTest.Click += new System.EventHandler(this.labelTest_Click);
+            // 
+            // bgw1
+            // 
+            this.bgw1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgw1_DoWork);
+            this.bgw1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgw1_RunWorkerCompleted);
+            // 
+            // Test2Syn
+            // 
+            this.Test2Syn.Location = new System.Drawing.Point(277, 137);
+            this.Test2Syn.Name = "Test2Syn";
+            this.Test2Syn.Size = new System.Drawing.Size(94, 29);
+            this.Test2Syn.TabIndex = 14;
+            this.Test2Syn.Text = "Test2";
+            this.Test2Syn.UseVisualStyleBackColor = true;
+            this.Test2Syn.Click += new System.EventHandler(this.Test2Syn_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 500;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(318, 292);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 20);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(679, 462);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Test2Syn);
+            this.Controls.Add(this.labelTest);
+            this.Controls.Add(this.Test);
             this.Controls.Add(this.time);
             this.Controls.Add(this.czas);
             this.Controls.Add(this.generuj);
@@ -217,5 +277,11 @@
         private Button generuj;
         private Label czas;
         private Label time;
+        private Button Test;
+        private Label labelTest;
+        private System.ComponentModel.BackgroundWorker bgw1;
+        private Button Test2Syn;
+        private System.Windows.Forms.Timer timer1;
+        private Label label1;
     }
 }
