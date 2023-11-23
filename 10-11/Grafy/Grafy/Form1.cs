@@ -21,9 +21,11 @@ namespace Grafy
             var w5 = new Wezel(4);
             w1.dzieci.Add(w5);
             var w6 = new Wezel(1);
-            w1.dzieci.Add(w6);
+            w5.dzieci.Add(w6);
+            var w7 = new Wezel(8);
+            w4.dzieci.Add(w7);
             napis = "";
-            A(w1);
+            BFS(w1);
             MessageBox.Show(napis);
         }
 
@@ -33,6 +35,22 @@ namespace Grafy
             foreach (var dziecko in w.dzieci)
             {
                 A(dziecko);
+            }
+        }
+
+        Queue<Wezel> kids = new();
+        void BFS(Wezel w)
+        {           
+            kids.Enqueue(w);
+            while (kids.Count > 0)
+            {
+                Wezel current = kids.Dequeue();
+                if (!napis.Contains(current.wartosc.ToString()))
+                    napis += current.wartosc.ToString() + " ";
+                foreach (var dziecko in current.dzieci)
+                {
+                    kids.Enqueue(dziecko);
+                }
             }
         }
 
