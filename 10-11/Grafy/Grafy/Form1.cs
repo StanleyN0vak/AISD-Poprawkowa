@@ -27,6 +27,11 @@ namespace Grafy
             napis = "";
             BFS(w1);
             MessageBox.Show(napis);
+            var we1 = new Wezel3(5);
+            DrzewoBinarne drzewo = new(10);
+            drzewo.Add(4);
+            drzewo.Add(11);
+            drzewo.Add(3);
         }
 
         void A(Wezel w)
