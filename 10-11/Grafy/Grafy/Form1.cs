@@ -27,11 +27,17 @@ namespace Grafy
             napis = "";
             BFS(w1);
             MessageBox.Show(napis);
-            var we1 = new Wezel3(5);
             DrzewoBinarne drzewo = new(10);
             drzewo.Add(4);
             drzewo.Add(11);
             drzewo.Add(3);
+            drzewo.Add(4);
+            drzewo.Znajdz(3);
+            drzewo.Znajdz(5);
+            drzewo.ZnajdzMin(drzewo.korzen);
+            drzewo.ZnajdzMax(drzewo.korzen);
+            var test = drzewo.Nastepnik(drzewo.korzen.lewy.prawy);
+            var test2 = drzewo.Poprzednik(drzewo.korzen.lewy);
         }
 
         void A(Wezel w)

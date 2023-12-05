@@ -3,7 +3,6 @@ C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\bin\Debug
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\bin\Debug\net6.0-windows\Grafy.runtimeconfig.json
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\bin\Debug\net6.0-windows\Grafy.dll
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\bin\Debug\net6.0-windows\Grafy.pdb
-C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\Grafy.csproj.AssemblyReference.cache
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\Grafy.Form1.resources
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\Grafy.csproj.GenerateResource.cache
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\Grafy.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +14,4 @@ C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\Grafy.pdb
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\Grafy.genruntimeconfig.cache
 C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\ref\Grafy.dll
+C:\Users\Mateusz\WebstormProjects\ts\AISD-Poprawkowa\10-11\Grafy\Grafy\obj\Debug\net6.0-windows\Grafy.sourcelink.json

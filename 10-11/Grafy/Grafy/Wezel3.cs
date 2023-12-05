@@ -17,9 +17,18 @@ namespace Grafy
             this.wartosc = liczba;
         }
 
-       /* public Wezel3 ZnadzRodzica(int liczba)
+        internal void DodajDziecko(int liczba)
         {
-
-        }*/
+            if (liczba < this.wartosc)
+            {
+                this.lewy = new Wezel3(liczba);
+                this.lewy.rodzic = this;
+            }
+            else
+            {
+                this.prawy = new Wezel3(liczba);
+                this.prawy.rodzic = this;
+            }
+        }
     }
 }
