@@ -28,46 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bt1 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            bt1 = new Button();
+            btn2 = new Button();
+            btn3 = new Button();
+            SuspendLayout();
             // 
             // bt1
             // 
-            this.bt1.Location = new System.Drawing.Point(12, 12);
-            this.bt1.Name = "bt1";
-            this.bt1.Size = new System.Drawing.Size(94, 29);
-            this.bt1.TabIndex = 0;
-            this.bt1.Text = "Generuj";
-            this.bt1.UseVisualStyleBackColor = true;
-            this.bt1.Click += new System.EventHandler(this.bt1_Click);
+            bt1.Location = new Point(12, 12);
+            bt1.Name = "bt1";
+            bt1.Size = new Size(94, 29);
+            bt1.TabIndex = 0;
+            bt1.Text = "Generuj";
+            bt1.UseVisualStyleBackColor = true;
+            bt1.Click += bt1_Click;
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(12, 47);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(94, 29);
-            this.btn2.TabIndex = 1;
-            this.btn2.Text = "Generuj Sąsiad";
-            this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            btn2.Location = new Point(12, 47);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(94, 29);
+            btn2.TabIndex = 1;
+            btn2.Text = "Generuj Sąsiad";
+            btn2.UseVisualStyleBackColor = true;
+            btn2.Click += btn2_Click;
+            // 
+            // btn3
+            // 
+            btn3.Location = new Point(12, 82);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(94, 29);
+            btn3.TabIndex = 2;
+            btn3.Text = "Generuj Sąsiad";
+            btn3.UseVisualStyleBackColor = true;
+            btn3.Click += btn3_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn2);
-            this.Controls.Add(this.bt1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btn3);
+            Controls.Add(btn2);
+            Controls.Add(bt1);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
 
         private Button bt1;
         private Button btn2;
+        private Button btn3;
     }
 }

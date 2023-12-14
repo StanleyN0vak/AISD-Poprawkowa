@@ -127,8 +127,6 @@ namespace Grafy
 
         public Wezel3 Nastepnik(Wezel3 w)
         {
-            while (true) 
-            {
                 if (w.prawy != null)
                 {
                     return ZnajdzMin(w.prawy);
@@ -147,11 +145,7 @@ namespace Grafy
                         }
                     }
                 }
-                else if (w.prawy == null && w.rodzic == null)
-                {
-                    return null;
-                }
-            }
+                return null;
         }
 
         public Wezel3 Poprzednik(Wezel3 w)
@@ -181,6 +175,67 @@ namespace Grafy
                     return null;
                 }
             }
+        }
+
+        public Wezel3 Usun(Wezel3 w)
+        {
+            //1) Nie ma dzieci, to usuwamy. Odpinamy rodzicowi odpowiednie dziecko i odpowiedniego rodzica
+            if (w.lewy == null && w.prawy == null)
+            {
+                if (w.rodzic.lewy == w)
+                {
+                    w.rodzic.lewy = null;
+                    return w = null;
+                }
+                else
+                {
+                    w.rodzic.prawy = null;
+                    return w = null;
+                }
+            }
+            //2) Jeżeli ma jedno dziecko, to zastępuje obecnego rodzica. Wchodzi na jego miejsce
+            else if(w.lewy != null && w.prawy == null)
+            {
+                var left = w;
+                w = w.lewy;
+                w.rodzic = left.rodzic;
+                if (left.rodzic.lewy == left)
+                {
+                    w.rodzic.lewy = w;
+                    return w;
+                }
+                else
+                {
+                    w.rodzic.prawy = w;
+                    return w;
+                }
+                
+            }
+            else if(w.prawy != null && w.lewy == null)
+            {
+                var right = w;
+                w = w.prawy;
+                w.rodzic = right.rodzic;
+                if (right.rodzic.lewy == right)
+                {
+                    w.rodzic.lewy = w;
+                    return w;
+                }
+                else
+                {
+                    w.rodzic.prawy = w;
+                    return w;
+                }
+            }
+            //3) Jeżeli ma dwoje dzieci. Zamieniam rodzica dzieckiem następnikiem albo poprzednikiem (to rekurencyjnie musimy poprzednikiem/nastepnikiem)
+            // Idziemy głęboko w rekurencję aż dojdziemy do końca i zwracamy ostatni węzeł
+            else
+            {
+                var poprzednik = Poprzednik(w);
+                w.wartosc = poprzednik.wartosc;
+                w.lewy = Usun(w.lewy);
+            }
+            return w;
         }
     }    
 }

@@ -27,17 +27,6 @@ namespace Grafy
             napis = "";
             BFS(w1);
             MessageBox.Show(napis);
-            DrzewoBinarne drzewo = new(10);
-            drzewo.Add(4);
-            drzewo.Add(11);
-            drzewo.Add(3);
-            drzewo.Add(4);
-            drzewo.Znajdz(3);
-            drzewo.Znajdz(5);
-            drzewo.ZnajdzMin(drzewo.korzen);
-            drzewo.ZnajdzMax(drzewo.korzen);
-            var test = drzewo.Nastepnik(drzewo.korzen.lewy.prawy);
-            var test2 = drzewo.Poprzednik(drzewo.korzen.lewy);
         }
 
         void A(Wezel w)
@@ -51,7 +40,7 @@ namespace Grafy
 
         Queue<Wezel> kids = new();
         void BFS(Wezel w)
-        {           
+        {
             kids.Enqueue(w);
             while (kids.Count > 0)
             {
@@ -98,6 +87,30 @@ namespace Grafy
                     A(sasiad);
                 }
             }
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            DrzewoBinarne drzewo = new(5);
+            drzewo.Add(4);
+            drzewo.Add(8);
+            drzewo.Add(7);
+            drzewo.Add(6);
+            drzewo.Add(9);
+            drzewo.Add(7);
+            drzewo.Add(1);
+            drzewo.Add(4);
+            drzewo.Add(3);
+            drzewo.Add(5);
+            drzewo.Add(2);
+            drzewo.Add(2);
+            var w = drzewo.ZnajdzMin(drzewo.korzen);
+            /*while(w!=null)
+            {
+                MessageBox.Show(w.wartosc.ToString());
+                w = drzewo.Nastepnik(w);
+            }*/
+            drzewo.Usun(drzewo.korzen.prawy);
         }
     }
 }

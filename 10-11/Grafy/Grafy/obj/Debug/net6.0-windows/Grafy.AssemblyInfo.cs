@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Grafy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3c3c2038c5008cf9c8e482deb275aaa4ca64ed3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1714edf8fd77161080a627bb69368df2ee02a199")]
 [assembly: System.Reflection.AssemblyProductAttribute("Grafy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Grafy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
