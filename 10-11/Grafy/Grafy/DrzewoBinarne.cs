@@ -177,7 +177,7 @@ namespace Grafy
             }
         }
 
-        public Wezel3 Usun(Wezel3 w)
+        /*public Wezel3 Usun(Wezel3 w)
         {
             //1) Nie ma dzieci, to usuwamy. Odpinamy rodzicowi odpowiednie dziecko i odpowiedniego rodzica
             if (w.lewy == null && w.prawy == null)
@@ -236,6 +236,75 @@ namespace Grafy
                 w.lewy = Usun(w.lewy);
             }
             return w;
+        }*/
+
+        Wezel3 Usun(Wezel3 w)
+        {
+            switch (w.GotliczbaDzieci())
+            {
+                case 0:
+                    w = this.UsunGdy0(w);
+                    break;
+                case 1:
+                    w = this.UsunGdy1(w);
+                    break;
+                case 2:
+                    w = this.UsunGdy2(w);
+                    break;
+            }
+            return w;
+        }
+
+        private Wezel3 UsunGdy2(Wezel3 w)
+        {
+            var zamiennik = this.Nastepnik(w);
+            zamiennik = this.Usun(zamiennik);
+            //przewiązywanie
+            return w;
+        }
+
+        private Wezel3 UsunGdy1(Wezel3 w)
+        {
+            Wezel3 dziecko = null;
+            if (w.lewy != null)
+            {
+                dziecko = w.lewy;
+                w.lewy = null;
+            }
+            else
+            {
+                dziecko = w.prawy;
+                w.prawy = null;
+            }
+            dziecko.rodzic = w.rodzic;
+
+            if (w.rodzic == null)
+                this.korzen = dziecko;
+            else
+            {
+                if (w.rodzic.lewy == w)
+                    w.rodzic.lewy = dziecko;
+                else
+                    w.rodzic.prawy = dziecko;
+            }
+            w.rodzic = null;
+            return w;
+        }
+
+        private Wezel3 UsunGdy0( Wezel3 w )
+        {
+            if(w.rodzic == null)
+            {
+                this.korzen = null;
+                return w;
+            }
+            if (w.rodzic.lewy == null)
+                w.rodzic.lewy = null;
+            else
+                w.rodzic.prawy = null;
+            w.rodzic = null;
+            return w;
+
         }
     }    
 }

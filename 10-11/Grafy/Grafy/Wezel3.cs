@@ -30,5 +30,15 @@ namespace Grafy
                 this.prawy.rodzic = this;
             }
         }
+
+        internal int GotliczbaDzieci()
+        {
+            int wynik = 0;
+            if (this.lewy != null)
+                wynik++;
+            if(this.prawy != null)
+                wynik++;
+            return wynik;
+        }
     }
 }

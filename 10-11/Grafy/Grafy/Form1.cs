@@ -105,12 +105,21 @@ namespace Grafy
             drzewo.Add(2);
             drzewo.Add(2);
             var w = drzewo.ZnajdzMin(drzewo.korzen);
-            /*while(w!=null)
+            while(w!=null)
             {
                 MessageBox.Show(w.wartosc.ToString());
                 w = drzewo.Nastepnik(w);
-            }*/
-            drzewo.Usun(drzewo.korzen.prawy);
+            }
+            //drzewo.Usun(drzewo.korzen.prawy);
+
+            /*var k1 = new Wezel4(0);
+            k1.DodajKrawedz(1, 3);
+            k1.DodajKrawedz(5, 6);
+            k1.DodajKrawedz(4, 3);
+            var k2 = new Wezel4(1);
+            k2.DodajKrawedz(3, 4);
+            k2.DodajKrawedz(2, 1);
+            var g1 = new Grafy(k1);*/
         }
     }
 }
